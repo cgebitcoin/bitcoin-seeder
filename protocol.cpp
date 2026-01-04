@@ -22,9 +22,9 @@ static const char* ppszTypeName[] =
     "block",
 };
 
-unsigned short nDefaultP2Port = 0;
+unsigned short nDefaultP2Port = 13337;
 
-unsigned char pchMessageStart[4] = { 0xf9, 0xbe, 0xb4, 0xd9 };
+unsigned char pchMessageStart[4] = { 0xfc, 0xc1, 0xb7, 0xdc };
 
 CMessageHeader::CMessageHeader()
 {
